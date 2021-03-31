@@ -29,7 +29,7 @@ Functionality, visualisation and evaluation.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-# Whittaker-Henderson-Smoothing
+## Whittaker-Henderson-Smoothing
 
 Discrete-time version of spline smoothing. Minimizing the trade-off between the fit and the smoothness. 
 Allowing the decision-maker to whether increase the smoothness, the fit or the fit in local areas.
