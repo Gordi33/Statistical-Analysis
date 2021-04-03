@@ -20,6 +20,7 @@ class WhitakterHenderson:
 		self.__m = 2
 		self.__weights = None
 		self.__weights_set_flag = False
+		self.__weights_set_unif_flag = True
 		self.__data_unsmoothened = None
 		self.__data_smoothened = None
 
@@ -63,12 +64,17 @@ class WhitakterHenderson:
 				#self.__weights.fill(1)
 				self.__weights = np.array(np.full(len(self.__data_unsmoothened), 1))
 				self.__weights_set_flag = True
+				self.__weights_set_unif_flag = True
 		except:
 				self.__weights =  np.array(p_weights)
 				self.__weights_set_flag = True
+				self.__weights_set_unif_flag = False
 	
 	def get_weights(self):
 		return self.__weights
+
+	def get_weights_uniform_flag(self):
+		return self.__weights_set_unif_flag
 
 	def set_data_unsmoothened(self, p_data):
 		self.__data_unsmoothened = p_data
@@ -108,4 +114,10 @@ class WhitakterHenderson:
 	def plot_data(self):
 		plt.plot(self.__data_unsmoothened)
 		plt.plot(self.__data_smoothened)
-		#plt.show()
+		#plt.plot(x, y, 'o')
+		#plt.axhline(y, c = "orange")
+		#plt.title("")
+		plt.legend(['Raw data', 'Smoothed g=' + str(self.get_g()) +
+												', m=' + str(self.get_m()) +
+												", weights " + ( 'unif' if self.get_weights_uniform_flag() else 'modi')])
+		plt.show()
