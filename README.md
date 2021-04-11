@@ -8,7 +8,7 @@ Collection of different approaches to solve, interpret and uncover insights, pat
 
 Showing different methods of analysing the statistical and graphical significant difference between two variables.
 
- - Part 4: Normaltiy test
+ - Part 4: Normality test
  - Part 5: T-Test
  - Part 6: U-Test
  - Part 7: Chi-square test for two categorical variables
