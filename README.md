@@ -3,8 +3,7 @@
 Collection of different approaches to solve, interpret and uncover insights, patterns and trends. 
 
 ------------------------------------------------------------------------------------------------------------------------------
-## Bivariate-Analysis
-* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Bivariate-Analysis.ipynb) 
+## [**Bivariate-Analysis**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Bivariate-Analysis.ipynb) 
 
 Showing different methods of analysing the statistical and graphical significant difference between two variables.
 
@@ -15,8 +14,7 @@ Showing different methods of analysing the statistical and graphical significant
  - Part 8: Chi-square test for each outcome of a categorical variable
         
 ------------------------------------------------------------------------------------------------------------------------------
-## Categorising-under-maximising-CramerV-using-HyperOpt
-* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
+## [**Categorising-under-maximising-CramerV-using-HyperOpt**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
 
 Finding the optimum split for different sizes of bins for the metric variable "Salary" in reference to the binary variable "Clicked" such that the association measure CramerV is maximised.	
 	
@@ -26,8 +24,7 @@ Finding the optimum split for different sizes of bins for the metric variable "S
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-## Linear + Polynomial Regression
-* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Polynomial-Regression.ipynb) 
+## [**Linear + Polynomial Regression**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Polynomial-Regression.ipynb) 
 
 Regression from degree 1 to 16th degree. Comparing and finding the sweetspot in choosing the right number of degree.
 
@@ -35,8 +32,7 @@ Regression from degree 1 to 16th degree. Comparing and finding the sweetspot in 
  - Part 4:	Visualization of regression curves and error-metrics.
 ------------------------------------------------------------------------------------------------------------------------------
 
-## Whittaker-Henderson-Smoothing
-* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Whittaker-Henderson-Smoothing.ipynb) 
+## [**Whittaker-Henderson-Smoothing**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Whittaker-Henderson-Smoothing.ipynb) 
 
 Discrete-time version of spline smoothing. Minimizing the trade-off between the fit and the smoothness. 
 Allowing the decision-maker to whether increase the smoothness, the fit or the fit in local areas.
