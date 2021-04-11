@@ -23,10 +23,11 @@ Finding the optimum split for different sizes of bins for the metric variable "S
 - Part 4:	The total cycle is evaluated with two and three splits to find the true global optimum. That output is being compared to the Solver solution.
 
 CramerV:	
- - https://en.wikipedia.org/wiki/Cram%C3%A9r%27s_V
+https://en.wikipedia.org/wiki/Cram%C3%A9r%27s_V
+
 HyperOpt:
- - https://github.com/hyperopt/hyperopt
- - https://towardsdatascience.com/hyperparameter-optimization-in-python-part-0-introduction-c4b66791614b
+https://github.com/hyperopt/hyperopt
+https://towardsdatascience.com/hyperparameter-optimization-in-python-part-0-introduction-c4b66791614b
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -48,7 +49,7 @@ Allowing the decision-maker to whether increase the smoothness, the fit or the f
  - Part 5:	Impact analysis of the smoothing parameter m. What happens if the smoothing parameter m is modefied ?
  - Part 6:	Impact analysis of the weights. What happens if the weights are modefied ?
 
- - http://eceweb1.rutgers.edu/~orfanidi/aosp/aosp-ch08.pdf
+http://eceweb1.rutgers.edu/~orfanidi/aosp/aosp-ch08.pdf
 
 ------------------------------------------------------------------------------------------------------------------------------
 
