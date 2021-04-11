@@ -14,20 +14,13 @@ Showing different methods of analysing the statistical and graphical significant
  - Part 8: Chi-square test for each outcome of a categorical variable
         
 ------------------------------------------------------------------------------------------------------------------------------
-## Categorising-under-maximising-CramerV-using-HyperOpt. 
+## [**Categorising-under-maximising-CramerV-using-HyperOpt**] (https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
 
-Finding the optimum split for different sizes of bins for the metric variable "Salary" in reference to the binary variable "Clicked" such that the association measure CramerV is maximised.
-
+Finding the optimum split for different sizes of bins for the metric variable "Salary" in reference to the binary variable "Clicked" such that the association measure CramerV is maximised.	
+	
 - Part 2:	HyperOpt and fmin are used to find the maximum CramerV-association measure for 1, 2, 3, 4, 5, 10, 20 and 50 splits. The splits should range between 1K and 100K in 1K-steps.
 - Part 3:	For each split and their optimum solution (according to the solver), the Chi-Square-Test is computed and the categorized "Salary"-variable is visualized.
 - Part 4:	The total cycle is evaluated with two and three splits to find the true global optimum. That output is being compared to the Solver solution.
-
-CramerV:	
-https://en.wikipedia.org/wiki/Cram%C3%A9r%27s_V
-
-HyperOpt:
-https://github.com/hyperopt/hyperopt
-https://towardsdatascience.com/hyperparameter-optimization-in-python-part-0-introduction-c4b66791614b
 
 ------------------------------------------------------------------------------------------------------------------------------
 
