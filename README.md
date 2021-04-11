@@ -5,8 +5,14 @@ Collection of different approaches to solve, interpret and uncover insights, pat
 ------------------------------------------------------------------------------------------------------------------------------
 ## Bivariate-Analysis
 
-Showing different methods of analysing the statistical and graphical significant difference between two variables. 
+Showing different methods of analysing the statistical and graphical significant difference between two variables.
 
+ - Part 4: Normaltiy test
+ - Part 5: T-Test
+ - Part 6: U-Test
+ - Part 7: Chi-square test for two categorical variables
+ - Part 8: Chi-square test for each outcome of a categorical variable
+        
 ------------------------------------------------------------------------------------------------------------------------------
 ## Categorising-under-maximising-CramerV-using-HyperOpt. 
 
@@ -16,9 +22,9 @@ Finding the optimum split for different sizes of bins for the metric variable "S
 - Part 3:	For each split and their optimum solution (according to the solver), the Chi-Square-Test is computed and the categorized "Salary"-variable is visualized.
 - Part 4:	The total cycle is evaluated with two and three splits to find the true global optimum. That output is being compared to the Solver solution.
 
- - CramerV:	
+CramerV:	
  - https://en.wikipedia.org/wiki/Cram%C3%A9r%27s_V
- - HyperOpt:
+HyperOpt:
  - https://github.com/hyperopt/hyperopt
  - https://towardsdatascience.com/hyperparameter-optimization-in-python-part-0-introduction-c4b66791614b
 
@@ -42,7 +48,6 @@ Allowing the decision-maker to whether increase the smoothness, the fit or the f
  - Part 5:	Impact analysis of the smoothing parameter m. What happens if the smoothing parameter m is modefied ?
  - Part 6:	Impact analysis of the weights. What happens if the weights are modefied ?
 
- - Whittaker-Henderson Smoothing:
  - http://eceweb1.rutgers.edu/~orfanidi/aosp/aosp-ch08.pdf
 
 ------------------------------------------------------------------------------------------------------------------------------
