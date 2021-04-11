@@ -4,6 +4,7 @@ Collection of different approaches to solve, interpret and uncover insights, pat
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Bivariate-Analysis
+* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Bivariate-Analysis.ipynb) 
 
 Showing different methods of analysing the statistical and graphical significant difference between two variables.
 
@@ -15,7 +16,7 @@ Showing different methods of analysing the statistical and graphical significant
         
 ------------------------------------------------------------------------------------------------------------------------------
 ## Categorising-under-maximising-CramerV-using-HyperOpt
-* [**Categorising-under-maximising-CramerV-using-HyperOpt**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
+* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
 
 Finding the optimum split for different sizes of bins for the metric variable "Salary" in reference to the binary variable "Clicked" such that the association measure CramerV is maximised.	
 	
@@ -26,6 +27,7 @@ Finding the optimum split for different sizes of bins for the metric variable "S
 ------------------------------------------------------------------------------------------------------------------------------
 
 ## Linear + Polynomial Regression
+* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Polynomial-Regression.ipynb) 
 
 Regression from degree 1 to 16th degree. Comparing and finding the sweetspot in choosing the right number of degree.
 
@@ -34,6 +36,7 @@ Regression from degree 1 to 16th degree. Comparing and finding the sweetspot in 
 ------------------------------------------------------------------------------------------------------------------------------
 
 ## Whittaker-Henderson-Smoothing
+* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Whittaker-Henderson-Smoothing.ipynb) 
 
 Discrete-time version of spline smoothing. Minimizing the trade-off between the fit and the smoothness. 
 Allowing the decision-maker to whether increase the smoothness, the fit or the fit in local areas.
@@ -42,8 +45,6 @@ Allowing the decision-maker to whether increase the smoothness, the fit or the f
  - Part 4:	Impact analysis of the smoothing parameter g. What happens if the smoothing parameter g is modefied ?
  - Part 5:	Impact analysis of the smoothing parameter m. What happens if the smoothing parameter m is modefied ?
  - Part 6:	Impact analysis of the weights. What happens if the weights are modefied ?
-
-http://eceweb1.rutgers.edu/~orfanidi/aosp/aosp-ch08.pdf
 
 ------------------------------------------------------------------------------------------------------------------------------
 
