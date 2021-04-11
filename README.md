@@ -14,7 +14,8 @@ Showing different methods of analysing the statistical and graphical significant
  - Part 8: Chi-square test for each outcome of a categorical variable
         
 ------------------------------------------------------------------------------------------------------------------------------
-## [**Categorising-under-maximising-CramerV-using-HyperOpt**] (https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
+## Categorising-under-maximising-CramerV-using-HyperOpt
+* [**Categorising-under-maximising-CramerV-using-HyperOpt**] (https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
 
 Finding the optimum split for different sizes of bins for the metric variable "Salary" in reference to the binary variable "Clicked" such that the association measure CramerV is maximised.	
 	
