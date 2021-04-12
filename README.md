@@ -8,11 +8,13 @@ Collection of different approaches to solve, interpret and uncover insights, pat
 Showing different methods of analysing the statistical and graphical significant difference between two variables.
 
  - Part 4: Normality test
- - Part 5: T-Test
- - Part 6: U-Test
- - Part 7: Chi-square test for two categorical variables
- - Part 8: Chi-square test for each outcome of a categorical variable
-        
+ - Part 5: T-Test for two groups
+ - Part 6: Confidence intervals for two groups with unknown variance
+ - Part 7: U-Test for two groups
+ - Part 8: Chi-square-Test for two categorical variables
+ - Part 9: Chi-square-Test for each outcome of a categorical variable
+
+
 ------------------------------------------------------------------------------------------------------------------------------
 ## [**Categorising-under-maximising-CramerV-using-HyperOpt**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
 
