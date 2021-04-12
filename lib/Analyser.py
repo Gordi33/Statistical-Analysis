@@ -13,6 +13,7 @@ import pyodbc
 import os
 import csv
 from matplotlib import pyplot
+import researchpy as rp
 import matplotlib.pyplot as plt
 from IPython.display import HTML
 import sklearn as skl
@@ -27,7 +28,7 @@ from scipy.stats import *
 import warnings
 from statsmodels.graphics.gofplots import qqplot
 from scipy import stats
-
+import statsmodels.stats.api as sms
 
 class Analyser:
 
@@ -238,4 +239,23 @@ class Analyser:
 			print('Sample looks Gaussian (fail to reject H0)')
 		else:
 			print('Sample does not look Gaussian (reject H0)')
+
+	def t_test_for_two_EX_with_unknown_but_equal_variance(self, p_group1, p_group2):
+		# n = p_group1.count() * p_group2.count()
+		# std_ = ( (p_group1.std()**2 * (p_group1.count()-1) + p_group2.std()**2 * (p_group2.count()-1)) / ( n - 2) )**0.5
+		# test_statitik = ((p_group1.mean() - p_group2.mean()) / std_) * (p_group1.count() * p_group2.count() / n )**0.5 
+		# t_quantil = scipy.stats.t.ppf(1 - alpha/2, n - 2)
+		return rp.ttest(group1 = p_group1, group1_name = p_group1.name, group2 = p_group2, group2_name = p_group2.name)
+ 
+	def confidence_interval_with_unknown_variance(self, p_group1, p_group2, p_alpha = 0.05):
+		print('Confidence Interval:  ', 100*(1 - p_alpha), '%')
+		print('Group1 (', p_group1.name, '): CI = [',round(sms.DescrStatsW(p_group1).tconfint_mean()[0],2), ';', round(sms.DescrStatsW(p_group1).tconfint_mean()[1],2), ']')
+		print('Group2 (', p_group2.name, '): CI = [',round(sms.DescrStatsW(p_group2).tconfint_mean()[0],2), ';', round(sms.DescrStatsW(p_group2).tconfint_mean()[1],2), ']')
+		fig = plt.figure(figsize =(5, 3.5))
+		ax = fig.add_axes([0,0,1.5,1.5])
+		data = [sms.DescrStatsW(p_group1).tconfint_mean(alpha = p_alpha), sms.DescrStatsW(p_group2).tconfint_mean(alpha = p_alpha)]
+		plt.axhline(sms.DescrStatsW(p_group1).tconfint_mean(alpha = p_alpha)[1], c = "orange", linewidth = 0.5)
+		plt.axhline(sms.DescrStatsW(p_group2).tconfint_mean(alpha = p_alpha)[0], c = "orange", linewidth = 0.5)
+		bp = ax.boxplot(data, labels = [p_group1.name, p_group2.name])
+		plt.show()
 
