@@ -3,7 +3,7 @@
 Collection of different approaches to solve, interpret and uncover insights, patterns and trends. 
 
 ------------------------------------------------------------------------------------------------------------------------------
-## Bivariate-Analysis
+## [**Bivariate-Analysis**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Bivariate-Analysis.ipynb) 
 
 Showing different methods of analysing the statistical and graphical significant difference between two variables.
 
