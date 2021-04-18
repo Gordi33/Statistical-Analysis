@@ -3,9 +3,9 @@
 Collection of different approaches to solve, interpret and uncover insights, patterns and trends. 
 
 ------------------------------------------------------------------------------------------------------------------------------
-## [**Bivariate-Analysis**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Bivariate-Analysis.ipynb) 
+### [**Bivariate-Analysis**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Bivariate-Analysis.ipynb) 
 
-Showing different methods of analysing the statistical and graphical significant difference between two variables.
+Showing different methods of analysing the **statistical and graphical significance** between two variables.
 
  - Part 4: Normality test
  - Part 5: T-Test for two groups
@@ -15,9 +15,9 @@ Showing different methods of analysing the statistical and graphical significant
  - Part 9: Chi-square-Test for each outcome of a categorical variable
 
 ------------------------------------------------------------------------------------------------------------------------------
-## [**Categorising-under-maximising-CramerV-using-HyperOpt**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
+### [**Categorising-under-maximising-CramerV-using-HyperOpt-and-Cycle-evaluation**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Categorising-under-maximising-CramerV-using-HyperOpt.ipynb) 
 
-Finding the **optimum split for different sizes of bins** for the metric variable "Salary" in reference to the binary variable "Clicked" such that the association measure CramerV is maximised.	
+Finding the **optimum split for different bins** for the metric variable "Salary" in reference to the binary variable "Clicked" such that the association measure CramerV is maximised.	
 	
 - Part 3:	HyperOpt and fmin are used to find the maximum CramerV-association measure for 1, 2, 3, 4, 5, 10, 20 and 50 splits.
 - Part 4:	For each split and their optimum solution (according to the solver), the Chi-Square-Test is computed and the categorized "Salary"-variable is visualized.
@@ -25,7 +25,7 @@ Finding the **optimum split for different sizes of bins** for the metric variabl
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-## [**Linear + Polynomial Regression**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Polynomial-Regression.ipynb) 
+### [**Linear + Polynomial Regression**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Polynomial-Regression.ipynb) 
 
 Regression from degree 1 to 16th degree. Comparing and finding the **sweetspot in choosing the right number of degree**.
 
@@ -34,7 +34,7 @@ Regression from degree 1 to 16th degree. Comparing and finding the **sweetspot i
  
 ------------------------------------------------------------------------------------------------------------------------------
 
-## [**Whittaker-Henderson-Smoothing**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Whittaker-Henderson-Smoothing.ipynb) 
+### [**Whittaker-Henderson-Smoothing**](https://nbviewer.jupyter.org/github/Gordi33/Statistical-Analysis/blob/master/Whittaker-Henderson-Smoothing.ipynb) 
 
 Discrete-time version of **spline smoothing**. Minimizing the trade-off between the fit and the smoothness. 
 Allowing the decision-maker to whether increase the smoothness, the fit or the fit in local areas.
